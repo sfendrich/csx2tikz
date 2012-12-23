@@ -41,7 +41,7 @@ To use the resulting code with LaTeX it should be included
 (preferably inside a figure-block) into a LaTeX document
 that loads the TikZ package. A minimal working example is:
 
-    \documentclass{minimal}
+    \documentclass{article}
     \usepackage{tikz}
     \usetikzlibrary{positioning}
     \begin{document}
